@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Заливайка</title>
+        <style type="text/css">
+            * { margin: 0; }
+            body {
+                width: 100%;
+                height: 100vh;
+
+                background-image: url('frieren-sousou-no-frieren-anime-4k-wallpaper-uhdpaper.com-600@1@n.jpg');
+                position: relative;
+            }
+            canvas { 
+                border:0;
+                display:block;
+                margin: auto;
+
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <canvas id="hexmap" width="3000" height="1200"></canvas> -->
+        <canvas id="hexmap"></canvas>
+        <script src="hexagons.js"></script>
+    </body>
+</html>
